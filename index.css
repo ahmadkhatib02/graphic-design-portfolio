@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.313rem;
+    margin: 0px;
+}
+/*Typography*/
+.greeting, .position, .content , .legend {
+    font-weight: 300;
+}
+.greeting {
+    font-size: 5rem;
+    margin-top: 0px;
+}
+
+.bold, .legend{
+    color: #99D930;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.name{
+    font-size: 8rem;
+}
+
+.position{
+    font-size: 3.75rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 20px 0px;
+}
+
+.graphic-designer{
+    font-size: 3.75rem;
+}
+
+.content{
+    margin-bottom: 0;
+}
+.design{
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.legend{
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.p2{
+    margin-top: 15px;
+}
+
+/* Content */
+.container{
+    text-align: center;
+    width: 570px;
+    display: block;
+    margin: 10px auto;
+}
+
+.pfp-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 8px white solid;
+}
+
+a{
+    color: #99D930;
+}
+
+a:hover{
+    color: #131313;
+}
+
+section{
+    padding: 100px 0px;
+
+}
+
+.section1, .section3{
+    background-color: #252525;
+    color: #fff;
+    
+}
+
+.btn{
+    display: inline-block;
+    background-color: #99D930;
+    color: #252525;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #252525;
+    color: #FFF;
+}
+
+.section3 .btn:hover, 
+.section3 .btn:focus {
+    background-color: #FFF;
+    color: #252525;
+}
